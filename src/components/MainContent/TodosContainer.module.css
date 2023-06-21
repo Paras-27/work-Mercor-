@@ -1,0 +1,4 @@
+.todosContainer {
+    @apply mt-10 grid grid-flow-row auto-cols-fr lg:grid-flow-col gap-[15px];
+  }
+  

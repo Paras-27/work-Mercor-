@@ -1,0 +1,63 @@
+.leftcont{
+  align-items: flex-start;
+  align-self: stretch;
+  border-right: 1px solid whitesmoke;
+  box-sizing: border-box;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xs);
+  gap: 5px;
+  justify-content: center;
+  padding:32px 11px 32px 11px;
+  text-align: left;
+  transition: all .7s ease-in-out;
+  width: 240px;
+}
+
+.headerm{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size:20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project{
+  font-weight: 600;
+  position: relative;
+}
+
+.logo{
+    height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+.containerlogo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.leftButton{
+    background-color: initial;
+    border: 0;
+    cursor: pointer;
+    height: 20px;
+    padding: 0;
+    position: relative;
+    width: 26px;
+}
+
+.arrow{
+  height: 20px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}

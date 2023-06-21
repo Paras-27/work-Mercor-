@@ -1,0 +1,12 @@
+.usersList {
+    @apply flex;
+  }
+  
+  .profile {
+    @apply border border-white rounded-full;
+  }
+  
+  .count {
+    @apply flex justify-center items-center bg-[#F4D7DA] border border-white rounded-full text-red text-[15px] font-medium z-40;
+  }
+  

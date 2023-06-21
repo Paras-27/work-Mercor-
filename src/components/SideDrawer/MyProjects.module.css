@@ -1,0 +1,32 @@
+.header {
+    @apply hidden sm:flex justify-between items-center mt-[30px] mb-5 mx-[22px];
+  }
+  
+  .headerText {
+    @apply text-xs font-bold text-grey uppercase;
+  }
+  
+  .projectsList {
+    @apply hidden sm:flex flex-col gap-[10px];
+  }
+  
+  .projectItem {
+    @apply flex items-center justify-between mx-3 pl-3 py-[10px];
+  }
+  
+  .projectInfo {
+    @apply flex gap-4 items-center;
+  }
+  
+  .projectName {
+    @apply text-sm font-medium text-grey;
+  }
+  
+  .active {
+    @apply bg-blue bg-opacity-10 rounded-[6px];
+  }
+  
+  .activeIcon {
+    @apply mr-3;
+  }
+  

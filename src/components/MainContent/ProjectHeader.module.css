@@ -1,0 +1,20 @@
+.projectHeader {
+    @apply w-full flex flex-col gap-4 lg:flex-row lg:justify-between items-center lg:gap-0 mt-10;
+  }
+  
+  .left {
+    @apply flex gap-[17px] items-center self-start;
+  }
+  
+  .projectTitle {
+    @apply font-semibold text-black -mt-3 text-3xl lg:text-[46px];
+  }
+  
+  .right {
+    @apply flex items-center justify-around self-end;
+  }
+  
+  .inviteLink {
+    @apply text-base font-medium text-blue ml-2 mr-3 -mt-1;
+  }
+  
